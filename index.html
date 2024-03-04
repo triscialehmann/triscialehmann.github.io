@@ -93,140 +93,12 @@
         <div class="header">
             <div class="w-layout-blockcontainer main-container w-container">
                 <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><a href="/" class="logo w-nav-brand"><img src="images/logoTV2.png" loading="lazy" alt="" class="logo-image" /></a>
-                    <nav role="navigation" class="main-menu w-nav-menu"><a href="/" aria-current="page" class="menu-item w-nav-link w--current">Home</a><a href="/about.html" class="menu-item w-nav-link">About</a><a href="/work.html" class="menu-item w-nav-link">work</a><a href="/blog.html" class="menu-item w-nav-link">blog</a><a href="/shop.html" class="menu-item w-nav-link">shop</a><a href="/contact.html" class="menu-item w-nav-link">contact</a></nav>
+                    <nav role="navigation" class="main-menu w-nav-menu"><a href="/" aria-current="page" class="menu-item w-nav-link w--current">Home</a><a href="/about.html" class="menu-item w-nav-link">About</a><a href="/work.html" class="menu-item w-nav-link">work</a><a href="/blog.html" class="menu-item w-nav-link">blog</a><a href="/contact.html" class="menu-item w-nav-link">contact</a></nav>
                     <div class="menu-button w-nav-button">
                         <div class="icon w-icon-nav-menu"></div>
                     </div>
-                    <div class="cart-wrapper">
-                        <div data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo2 {
-                                                                                                database {
-                                                                                                id
-                                                                                                commerceOrder {
-                                                                                                comment
-                                                                                                extraItems {
-                                                                                                name
-                                                                                                pluginId
-                                                                                                pluginName
-                                                                                                price {
-                                                                                                value
-                                                                                                unit
-                                                                                                decimalValue
-                                                                                                string
-                                                                                                }
-                                                                                                }
-                                                                                                id
-                                                                                                startedOn
-                                                                                                statusFlags {
-                                                                                                hasDownloads
-                                                                                                hasSubscription
-                                                                                                isFreeOrder
-                                                                                                requiresShipping
-                                                                                                }
-                                                                                                subtotal {
-                                                                                                value
-                                                                                                unit
-                                                                                                decimalValue
-                                                                                                string
-                                                                                                }
-                                                                                                total {
-                                                                                                value
-                                                                                                unit
-                                                                                                decimalValue
-                                                                                                string
-                                                                                                }
-                                                                                                updatedOn
-                                                                                                userItems {
-                                                                                                count
-                                                                                                id
-                                                                                                price {
-                                                                                                value
-                                                                                                unit
-                                                                                                decimalValue
-                                                                                                string
-                                                                                                }
-                                                                                                product {
-                                                                                                id
-                                                                                                cmsLocaleId
-                                                                                                f__draft_0ht
-                                                                                                f__archived_0ht
-                                                                                                f_ec_product_type_2dr10dr {
-                                                                                                id
-                                                                                                name
-                                                                                                }
-                                                                                                f_name_
-                                                                                                f_sku_properties_3dr {
-                                                                                                id
-                                                                                                name
-                                                                                                enum {
-                                                                                                id
-                                                                                                name
-                                                                                                slug
-                                                                                                }
-                                                                                                }
-                                                                                                }
-                                                                                                rowTotal {
-                                                                                                value
-                                                                                                unit
-                                                                                                decimalValue
-                                                                                                string
-                                                                                                }
-                                                                                                sku {
-                                                                                                cmsLocaleId
-                                                                                                f__draft_0ht
-                                                                                                f__archived_0ht
-                                                                                                f_main_image_4dr {
-                                                                                                url
-                                                                                                file {
-                                                                                                size
-                                                                                                origFileName
-                                                                                                createdOn
-                                                                                                updatedOn
-                                                                                                mimeType
-                                                                                                width
-                                                                                                height
-                                                                                                variants {
-                                                                                                origFileName
-                                                                                                quality
-                                                                                                height
-                                                                                                width
-                                                                                                s3Url
-                                                                                                error
-                                                                                                size
-                                                                                                }
-                                                                                                }
-                                                                                                alt
-                                                                                                }
-                                                                                                f_sku_values_3dr {
-                                                                                                property {
-                                                                                                id
-                                                                                                }
-                                                                                                value {
-                                                                                                id
-                                                                                                }
-                                                                                                }
-                                                                                                id
-                                                                                                }
-                                                                                                subscriptionFrequency
-                                                                                                subscriptionInterval
-                                                                                                subscriptionTrial
-                                                                                                }
-                                                                                                userItemsCount
-                                                                                                }
-                                                                                                }
-                                                                                                site {
-                                                                                                id
-                                                                                                commerce {
-                                                                                                businessAddress {
-                                                                                                country
-                                                                                                }
-                                                                                                defaultCountry
-                                                                                                defaultCurrency
-                                                                                                quickCheckoutEnabled
-                                                                                                }
-                                                                                                }
-                                                                                                }
-                                                                                               " data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart" data-node-type="commerce-cart-wrapper"><a class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link" href="#"><img src="images/cart.png" loading="lazy" alt="" class="cart-icon" />
-                            <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItemsCount%22%7D%7D%5D" class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+                    
+                            
                         </a>
                             <div style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal" data-node-type="commerce-cart-container-wrapper">
                                 <div data-node-type="commerce-cart-container" role="dialog" class="w-commerce-commercecartcontainer">
@@ -467,11 +339,11 @@
                                 </div>
                             </div>
                             <div class="service-text-box">
-                                <div class="service-text-book-left last-service-text-box-left"><img src="images/multiple-arrows.png" loading="lazy" alt="" class="service-text-icon" />
-                                    <div class="service-text-style">05</div>
+                                <div class="service-text-book-left last-service-text-box-left">
+                                    
                                 </div>
                                 <div class="service-text-book-right last-service-text-book-right">
-                                    <div class="service-text-rigfht-title">UX/UI</div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -480,7 +352,7 @@
                             <div class="service-icon-box"><img src="images/branding.png" loading="lazy" alt="" class="image" /></div>
                             <div class="service-box-item">
                                 <div class="service-box-right">
-                                    <h4 class="service-box-title">customization</h4>
+                                    <h4 class="service-box-title">illustration</h4>
                                     <div class="service-box-paragraph">I can help you turn your ideas into reality by creating images that are completely customized for you.</div>
                                 </div>
                             </div>
@@ -489,7 +361,7 @@
                             <div class="service-icon-box"><img src="images/ux.png" loading="lazy" alt="" class="image" /></div>
                             <div class="service-box-item">
                                 <div class="service-box-right">
-                                    <h4 class="service-box-title">content planning</h4>
+                                    <h4 class="service-box-title">SMM</h4>
                                     <div class="service-box-paragraph">With a creative flair and analytical mindset, I excel at tailoring content to specific audiences and objectives.</div>
                                 </div>
                             </div>
@@ -498,8 +370,8 @@
                             <div class="service-icon-box"><img src="images/ux.png" loading="lazy" alt="" class="image" /></div>
                             <div class="service-box-item">
                                 <div class="service-box-right">
-                                    <h4 class="service-box-title">user experience</h4>
-                                    <div class="service-box-paragraph">Blending creativity with precision to craft seamless user experiences that captivate and delight.</div>
+                                    <h4 class="service-box-title">design</h4>
+                                    <div class="service-box-paragraph">Combining creativity and precision to craft visually stunning and functional solutions.</div>
                                 </div>
                             </div>
                         </div>
@@ -507,8 +379,8 @@
                             <div class="service-icon-box"><img src="images/seo.png" loading="lazy" alt="" class="image" /></div>
                             <div class="service-box-item">
                                 <div class="service-box-right">
-                                    <h4 class="service-box-title">seo</h4>
-                                    <div class="service-box-paragraph"> Delivers effective solutions in helping businesses improve their online visibility and drive organic traffic.</div>
+                                    <h4 class="service-box-title">video</h4>
+                                    <div class="service-box-paragraph">Handles every aspect with finesse, delivers polished content that resonates with audiences.</div>
                                 </div>
                             </div>
                         </div>
